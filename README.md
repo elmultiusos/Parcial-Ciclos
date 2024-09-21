@@ -49,29 +49,19 @@ Se intentó colocar el puerto 8080, pero continua sin funcionar
 
 Se hizo un diagrama de casos
 
-![alt text](image-2.png)
+![alt text](image-9.png)
 
-Se implementará el patron de diseño Factory. Por lo que se hará el diagrama de clases correspondiente.
+Se implementará el patron de diseño Abstract Factory. Por lo que se hará el diagrama de clases correspondiente. Ademas de la inyeccion de dependencias por medio de la clase abstracta FabricaProducto
+
+![alt text](image-8.png)
 
 Se hace la creacion de pruebas para cumplir con el TDD.
 
 ![alt text](image-4.png)
 
 
+# Jacoco
+Se agrega la dependencia de Jacoco
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![alt text](image-11.png)
 

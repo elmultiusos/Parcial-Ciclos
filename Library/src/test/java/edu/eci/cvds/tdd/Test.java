@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class LibraryApplicationTests {
+class Test {
     private Client testClient;
     private Product testUser;
 	private AgentLog testAgentLog;
