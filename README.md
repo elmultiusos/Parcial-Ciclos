@@ -39,6 +39,10 @@ Se creo el proyecto por medio de (https://start.spring.io/)
 
 ![alt text](image.png)
 
+Se hizo el .gitignore
+
+![alt text](image-12.png)
+
 En teoria el proyecto funciona con spring-boot, pero da un error que hasta el momento no se sabe muy bien cúal es, por lo que se correran las pruebas para respaldar que el codigo funciona correctamente.
 
 ![alt text](image-1.png)
@@ -49,15 +53,27 @@ Se intentó colocar el puerto 8080, pero continua sin funcionar
 
 Se hizo un diagrama de casos
 
-![alt text](image-9.png)
+![alt text](image-13.png)
 
-Se implementará el patron de diseño Abstract Factory. Por lo que se hará el diagrama de clases correspondiente. Ademas de la inyeccion de dependencias por medio de la clase abstracta FabricaProducto
+# Patron de Diseño
 
-![alt text](image-8.png)
+Se implementará el patron de diseño Abstract Factory, porque dado que en teoria existen varios productos de diferentes clasificaciones.
+Estas clasificaciones podrían ser distintas, consolas, electrodomesticos, entre otros, y esos electrodomesticos pueden ser diferentes cosas de diferentes marca y fabricantes.
+
+![alt text](image-16.png)
+
+Por lo que se hará el diagrama de clases correspondiente. Ademas de la inyeccion de dependencias por medio de la clase abstracta FabricaProducto
+
+![alt text](image-14.png)
 
 Se hace la creacion de pruebas para cumplir con el TDD.
 
 ![alt text](image-4.png)
+
+# Creacion de Clases 
+
+![alt text](image-15.png)
+
 
 
 # Jacoco
@@ -65,3 +81,4 @@ Se agrega la dependencia de Jacoco
 
 ![alt text](image-11.png)
 
+Y por último se prueba el código para ver cuanto de él esta realmente probado.

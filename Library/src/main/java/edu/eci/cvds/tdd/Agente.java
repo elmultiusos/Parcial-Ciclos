@@ -8,10 +8,10 @@ Dice que hacer a diferentes agentes que se derivan de él al cliente
 */
 @SpringBootApplication
 public class AgenteLog extends Agente {
-
+	private String menssaje
 
     public getProduct() {
-
+		
     }
 
 	public static void main(String[] args) {
