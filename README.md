@@ -53,6 +53,13 @@ Se hizo un diagrama de casos
 
 Se implementará el patron de diseño Factory. Por lo que se hará el diagrama de clases correspondiente.
 
+Se hace la creacion de pruebas para cumplir con el TDD.
+
+![alt text](image-4.png)
+
+
+
+
 
 
 
